@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Photo App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Malian's Movie Photo App</h1>
+        </header>
+
+        <section>
+            <h2>Movie Photos</h2>
+            <p>Welcome to Malian's Movie Photo App.</p>
+            <p>Find and explore a hub of <a href="https://www.imdb.com/title/tt0175142/" target="_blank">movie photos</a> from our gallery.</p>
+            <img src="https://m.media-amazon.com/images/M/MV5BZGRmMGRhOWMtOTk3Ni00OTRjLTkyYTAtYzA1M2IzMGE3NGRkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Movie Photo" width="385" height="385">
+        </section>
+
+        <section>
+            <h2>Movie Lists</h2>
+
+            <article>
+                <h3>IMDb Top 15 Movies</h3>
+                <ul>
+                    <li>The Shawshank Redemption (1994)</li>
+                    <li>The Godfather (1972)</li>
+                    <li>The Dark Knight (2008)</li>
+                    <li>The Godfather Part II (1974)</li>
+                    <li>12 Angry Men (1957)</li>
+                    <li>The Lord of the Rings: The Return of the King (2003)</li>
+                    <li>Schindler's List (1993)</li>
+                    <li>Pulp Fiction (1994)</li>
+                    <li>The Lord of the Rings: The Fellowship of the Ring (2001)</li>
+                    <li>The Good, the Bad and the Ugly (1966)</li>
+                    <li>Forrest Gump (1994)</li>
+                    <li>The Lord of the Rings: The Two Towers (2002)</li>
+                    <li>Fight Club (1999)</li>
+                    <li>Inception (2010)</li>
+                    <li>Star Wars: Episode V - The Empire Strikes Back (1980)</li>
+                </ul>
+                <figure>
+                    <img src="https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="IMDb Top Movie" width="385" height="385">
+                    <figcaption>IMDb <em>top</em> rated movie #1</figcaption>
+                </figure>
+                <p>For more IMDb movie lists, check out the <a href="https://www.imdb.com/chart/top/" target="_blank">IMDb website</a>.</p>
+            </article>
+
+            <article>
+                <h3>Netflix Top 20 Movies</h3>
+                <ol>
+                    <li>Ali (2001)</li>
+                    <li>American Gangster (2007)</li>
+                    <li>Carol (2015)</li>
+                    <li>Do the Right Thing (1989)</li>
+                    <li>Dune: Part Two (2024)</li>
+                    <li>Field of Dreams (1989)</li>
+                    <li>His Three Daughters (2024)</li>
+                    <li>Parasite (2019)</li>
+                    <li>Past Lives (2023)</li>
+                    <li>The Place Beyond the Pines (2012)</li>
+                    <li>Pride & Prejudice (2005)</li>
+                    <li>The Power of the Dog (2021)</li>
+                    <li>The Remarkable Life of Ibelin (2024)</li>
+                    <li>The Room Next Door (2024)</li>
+                    <li>Furiosa: A Mad Max Saga (2024)</li>
+                    <li>Godzilla Minus One (2023)</li>
+                    <li>The Hateful Eight (2015)</li>
+                    <li>Heat (1995)</li>
+                    <li>The Killer (2023)</li>
+                    <li>Rebel Ridge (2024)</li>
+                </ol>
+                <figure>
+                    <img src="https://images.squarespace-cdn.com/content/v1/54e310f0e4b0f4a6ba3ac899/1552574184990-JCS29TGV23QGCI3RP97K/American+Gangster+Banner.jpg" alt="Netflix Movies" width="450" height="450">
+                    <figcaption><em>Most</em> watched Netflix movies</figcaption>
+                </figure>
+                <p>For more Netflix movies, check out the <a href="https://www.vulture.com/article/best-movies-on-netflix-right-now.html" target="_blank">Netflix website</a>.</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Movie Form</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="fullname">Name:</label>
+                    <input type="text" name="fullname" id="fullname" placeholder="Enter your full name" required><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email address" required><br><br>
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Enter your phone number"><br><br>
+
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" name="dob" id="dob"><br><br>
+
+                    <label for="address">Address:</label>
+                    <input type="text" name="address" id="address" placeholder="Enter your postal address"><br><br>
+
+                    <label for="city">City:</label>
+                    <input type="text" name="city" id="city" placeholder="Enter your city"><br><br>
+
+                    <label for="state">State:</label>
+                    <input type="text" name="state" id="state" placeholder="Enter your state"><br><br>
+
+                    <label for="zip">Zip Code:</label>
+                    <input type="text" name="zip" id="zip" placeholder="Enter your zip code"><br><br>
+
+                    <label for="country">Country:</label>
+                    <input type="text" name="country" id="country" placeholder="Enter your country"><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Preferences</legend>
+                    <label for="movie-site">Favorite Movie Site:</label>
+                    <select name="movie-site" id="movie-site">
+                        <option value="Netflix">Netflix</option>
+                        <option value="IMDb">IMDb</option>
+                        <option value="Hulu">Hulu</option>
+                        <option value="Disney">Disney</option>
+                        <option value="HBO">HBO</option>
+                        <option value="Prime">Prime</option>
+                        <option value="Apple">Apple</option>
+                        <option value="Peacock">Peacock</option>
+                        <option value="Paramount">Paramount</option>
+                        <option value="Tubi">Tubi</option>
+                    </select><br><br>
+
+                    <label>Favorite Movie Genre:</label><br>
+                    <input type="checkbox" name="genre" id="action" value="Action">
+                    <label for="action">Action</label>
+                    <input type="checkbox" name="genre" id="comedy" value="Comedy">
+                    <label for="comedy">Comedy</label>
+                    <input type="checkbox" name="genre" id="drama" value="Drama">
+                    <label for="drama">Drama</label>
+                    <input type="checkbox" name="genre" id="horror" value="Horror">
+                    <label for="horror">Horror</label>
+                    <input type="checkbox" name="genre" id="sci-fi" value="Sci-Fi">
+                    <label for="sci-fi">Sci-Fi</label>
+                    <input type="checkbox" name="genre" id="romance" value="Romance">
+                    <label for="romance">Romance</label>
+                </fieldset>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Movie Lovers. Built by Malian. All rights reserved.</p>
+            <p>Follow me on:
+                <a href="https://www.facebook.com/profile.php?id=61575746860861" target="_blank">Facebook</a>,
+                <a href="https://x.com/code_empire254" target="_blank">Twitter</a>,
+                <a href="https://www.instagram.com/malianprime01/" target="_blank">Instagram</a>,
+                <a href="https://github.com/MalianKingDev2001" target="_blank">GitHub</a>
+            </p>
+        </footer>
+    </main>
+</body>
+
+</html>
